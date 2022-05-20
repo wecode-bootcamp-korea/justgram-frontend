@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="./styles/main.css" rel="stylesheet" type="text/css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Justgram</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-box">
+        <div class="nav">
+          <div class="nav-logo-box">
+            <i class="fa-brands fa-instagram nav-icons"></i>
+            <span class="nav-logo-text">Justgram</span>
+          </div>
+          <div class="nav-serch-box">
+            <input type="text" placeholder="검색" />
+          </div>
+          <div class="nav-right-box">
+            <i class="fa-regular fa-compass nav-right-icons"></i>
+            <i class="fa-regular fa-heart nav-right-icons"></i>
+            <i class="fa-regular fa-user nav-right-icons"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="feeds">
+          <div class="article">
+            <div class="article-header">
+              <div class="article-header-user">
+                <span
+                  class="header-user"
+                  id="header-user-img-box"
+                  alt="user image"
+                >
+                  <img
+                    id="user-img"
+                    src="./assets/zhan-zhang-e5thHbI70uw-unsplash.jpg"
+                  />
+                </span>
+                <span class="header-user" id="header-use-text">user id</span>
+              </div>
+              <div class="elipsis"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+            <div class="article-img-box">
+              <img
+                class="article-img"
+                src="assets/alvan-nee-T-0EW-SEbsE-unsplash.jpg"
+                alt="feedimage"
+              />
+            </div>
+            <div class="article-icons">
+              <div class="article-icons-left">
+                <i class="fa-regular fa-heart article-icons-items"></i>
+                <i class="fa-regular fa-comment article-icons-items"></i>
+                <i class="fa-regular fa-paper-plane article-icons-items"></i>
+              </div>
+              <div class="article-icons-right">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <div class="article-likes">
+              <div class="article-likes-profile">
+                <img
+                  class="likes-profile"
+                  src="./assets/shifaaz-shamoon-9K9ipjhDdks-unsplash.jpg"
+                  alt="user photo"
+                />
+              </div>
+              <p>
+                <span class="bold-text">user id</span>님
+                <span class="bold-text">외 n명</span>이 좋아합니다
+              </p>
+            </div>
+            <div class="article-contents">
+              <span class="bold-text user-id">user id</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <span class="more">더 보기..</span>
+            </div>
+            <div class="article-comment">
+              <span class="bold-text user-id">user id</span>
+              <p>댓글 내용입니다!!!!!!!!!</p>
+            </div>
+            <div class="article-input-comments">
+              <i class="fa-regular fa-face-smile"></i>
+              <form class="comment-form">
+                <input
+                  class="comment-input"
+                  type="text"
+                  placeholder="댓글 달기..."
+                />
+                <button class="comment-submit" type="submit">게시</button>
+              </form>
+            </div>
+          </div>
+          <div class="main-right">
+            <div class="main-right-user"></div>
+            <div class="main-right-story"></div>
+            <div class="main-right-recommend"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
